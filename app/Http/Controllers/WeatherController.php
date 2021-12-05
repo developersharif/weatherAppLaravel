@@ -24,7 +24,7 @@ class WeatherController extends Controller
             $api = json_decode($api);
             return view("weather", ['data' => $api]);
         } catch (\Throwable $th) {
-            return redirect("weather");
+            return redirect("/");
         }
     }
 }
