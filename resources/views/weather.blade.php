@@ -157,7 +157,7 @@ input[type="text"]{
    <body>
 <form action="" method="post" class="form">
     @csrf
-    <input type="text" name="city" placeholder="city">
+    <input type="text" name="city" placeholder="Location">
     <input type="submit" value="Seach" class="button">
 </form>
        <div class="card">
